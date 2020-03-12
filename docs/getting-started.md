@@ -427,7 +427,7 @@ editor.Commands.add('show-styles', {
 Inside Style Manager definition we use `buildProps` which helps us create common properties from [available built-in objects](modules/Style-manager.html#built-in-properties) then in `properties` we can override same objects (eg. passing another `name` to change the label) identified by `property` name. As you can see from `custom-prop` example it's a matter of defining the CSS `property` and the input `type`. We suggest to check a more complete example of Style Manager properties usage from the [webpage preset demo](https://github.com/artf/grapesjs/blob/gh-pages/demo.html#L1000)
 
 ::: tip
-Check the [Style Manager API](api/panels.html) to see how to update sectors and properties dynamically
+Check the [Style Manager API](api/style_manager.html) to see how to update sectors and properties dynamically
 :::
 
 <!--
